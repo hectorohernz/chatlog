@@ -15,21 +15,22 @@
     - [x] Adding git repo
 
 - [] - Section 2 : Setting Backend Architecture
-   - []  Setting up NodeJs 
-   - []  Setting up mongodb
-   - []  creating post model
-   - []  creating post route
-   - []  Creating Get route 
-   - []  Finishing touches 
+   - [x]  Setting up NodeJs 
+   - [x]  Setting up mongodb
+   - []  Creating RootApi ? 
+   - [x]  creating post model
+   - [x]  creating post route
+   - [x]  Creating Get route 
+   - [x]  Finishing touches 
 
 - [] - Section 3 : Testing with Postman
-     - []  Testing endpoints to see if we get errors
-     - []  Get post 
+     - [x]  Testing endpoints to see if we get errors
+     - [x]  Get post 
 
 - [] - Section 4 : Setting Front-end
-     - []  Creating Form
-     - []  Using axios 
-     - []  Adding a  design
+     - [x]  Creating Form
+     - [x]  Using axios 
+     - []  Adding a Design
 
 - [] - Section 5 : Deployment
      - []  Removing Proxies 
