@@ -18,7 +18,12 @@ app.get('/', (req,res) => {
 app.use("/api/post", require("./routes/Post"));
 app.use("/api/feed", require("./routes/Feed"));
 
-
+if(process.env.NODE_ENV === "production"){
+    app.use(express.static('client/build'));
+    app.get("*", (req, res) => {	 
+      res.sendFile(path.resolve(__dirname,  "./client/build", "index.html"));
+    });
+}
 // Creating a server with node
 app.listen(PORT, () => {
     console.log(`Server Is Living ${PORT}`)

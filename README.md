@@ -23,16 +23,19 @@
    - [x]  Creating Get route 
    - [x]  Finishing touches 
 
-- [] - Section 3 : Testing with Postman
+- [x] - Section 3 : Testing with Postman
      - [x]  Testing endpoints to see if we get errors
      - [x]  Get post 
 
-- [] - Section 4 : Setting Front-end
+- [x] - Section 4 : Setting Front-end
      - [x]  Creating Form
      - [x]  Using axios 
-     - []  Adding a Design
+     - [x]  Adding a Design
 
-- [] - Section 5 : Deployment
+- [x] - Section 5 : Deployment
+     - [x] Package.json 
+          -  [x] adding postbuilt 
+          -  [x] add engines
      - []  Removing Proxies 
      - []  Add Heroku Post Build Script
      - []  Deployment 
