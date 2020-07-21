@@ -29,6 +29,7 @@ class App extends React.Component {
     });
     AOS.refresh();
   }
+  
   async fetchTweets() {
     const tweets = await axios.get('/api/feed');
     this.setState({ tweets: tweets.data })

@@ -36,6 +36,6 @@
      - [x] Package.json 
           -  [x] adding postbuilt 
           -  [x] add engines
-     - []  Removing Proxies 
-     - []  Add Heroku Post Build Script
-     - []  Deployment 
+     - [x]  Removing Proxies 
+     - [x]  Add Heroku Post Build Script
+     - [x]  Deployment 
